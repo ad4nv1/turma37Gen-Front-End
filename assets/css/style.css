@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fundo {
+  background: #812f74;
+  min-height: 100vh;
+}
+
+.menu {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #4d4bc5;
+  margin: 15px;
+  font-size: 40px;
+}
+
+.perfil {
+  color: #cecb3f;
+  display: flex;
+  padding: 50px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.texto h1 {
+  font-size: 40px;
+}
+
+.texto p {
+  font-size: 25px;
+  text-align: justify;
+  margin: 0 45px 0 0;
+}
+
+.perfil img {
+  border: 3px solid #fff;
+  border-radius: 30%;
+  height: 350px;
+}
+
+.video {
+  color: #b4b232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.video h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.video iframe {
+  border: 3px solid rgb(109, 2, 131);
+}
+
+
+.formulario {
+  
+
+    width: 350px;
+    background: rgba(204, 198, 198, 0.527);
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px black, 3px 6px 20px black;
+    padding: 50px 20px;
+    padding-bottom: 20px;
+    transform: translateX(590px);
+}
+
+.formulario h2 {
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.campos input {
+  padding: 6px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  border: 2px solid rgb(93, 17, 100);
+  width: 100%;
+  padding: 10px;
+  color: #b4b232;
+  background: rgb(83, 4, 99);
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+button:hover {
+  color: #0c0c0c;
+  background: rgb(185, 88, 214);
+  border: 2px solid #5a0275;
+  font-weight: 700;
+}
+
+.mapa{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px black, 3px 6px 20px black;
+    padding: 50px 20px;
+    padding-bottom: 20px;
+    transform: translateX(40px);
+}

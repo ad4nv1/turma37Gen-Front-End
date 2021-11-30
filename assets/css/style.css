@@ -7,7 +7,7 @@
 }
 
 .fundo {
-  background: #812f74;
+  background: #a51e8e;
   min-height: 100vh;
 }
 
@@ -53,7 +53,7 @@
 
 .perfil img {
   border: 3px solid #fff;
-  border-radius: 30%;
+  border-radius: 50%;
   height: 350px;
 }
 
